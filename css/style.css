@@ -1,0 +1,38 @@
+body,
+html{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#main{
+	margin: 0 auto 0 auto;
+	text-align: left;
+	width: 600px;
+}
+
+#main table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#main table tr:hover,
+#main table tr.second:hover{
+	background: #EEEEEE;
+}
+
+#main table th{
+	background: #BBBBBB;
+}
+
+#main table tr{
+	background: #CCCCCC;
+}
+
+#main table tr.second{
+	background: #DDDDDD;
+}
+
+#main table td{
+	height: 20px;
+}
